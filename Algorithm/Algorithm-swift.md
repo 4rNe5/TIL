@@ -11,8 +11,9 @@ TIL... 인가?
 - _ = String(24, radix: 2) -> 24를 2진수로 변환
 - _ = Int(100101, radix: 2) -> 2진수 100101를 10진수로 변환
 
-## 입력
+## 입력 
 ## readLine()
+---
 ### 한줄만 입력
 - readLine()!
 
@@ -40,6 +41,7 @@ TIL... 인가?
 
 ## print
 ### 일반 출력
+---
 - print(content)
 
 ### 끝문자
@@ -84,6 +86,7 @@ TIL... 인가?
 
 ## Array
 ### 초기화
+---
 - var arr = [type]() -> 1차원 빈 배열
 - var arr: [Int] = []
 
@@ -155,6 +158,7 @@ TIL... 인가?
 
 ## for
 ### 배열의 요소 담기 
+---
 - for i in arr{ } -> i안에 arr의 원소를 순차적으로 넣는다 
 
 ### for (index로)
@@ -171,6 +175,7 @@ TIL... 인가?
 
 ## Dictionary
 ### 초기화
+---
 - var dict: [String:Int] = [:] -> String타입 key의 Int타입 값인 빈 빈 딕셔너리 생성
 - var dict: [String:Int]() -> 위와 동일
 
@@ -224,5 +229,6 @@ TIL... 인가?
 
 ## 종료
 ### exit
+---
 - exit(0) -> exit code 0으로 process 종료
 
